@@ -21,6 +21,7 @@ Secret displayed on the promo page: `ESPRESSO-47`
 4. Running `docker compose up -d` alone may not rebuild the image after source changes. Use `docker compose up -d --build` to rebuild and recreate services when needed.
 
 5. The menu URL is `http://localhost:8080` and the promo URL is `http://localhost:8081`. The name `promo` is Compose service DNS for containers on the Compose network; a browser on the host does not normally resolve that service name.
+
 ![Menu](screenshots/00-menu.png)
 ![Menu](screenshots/01-menu.png)
 ![Promo](screenshots/02-promo.png)
