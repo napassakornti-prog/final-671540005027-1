@@ -24,4 +24,4 @@ Secret displayed on the promo page: `ESPRESSO-47`
 
 ![Menu](screenshots/00-menu.png)
 ![Menu](screenshots/01-menu.png)
-![Promo](screenshots/02-promo.png)
+![Promo](screenshots/02-Promo.png)
