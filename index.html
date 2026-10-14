@@ -1,0 +1,120 @@
+```html
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSU Coffee Menu</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Tahoma, sans-serif;
+            background: #fff7ed;
+            color: #4b2e1f;
+        }
+
+        header {
+            background: #704126;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        header h1 {
+            margin: 0 0 12px;
+        }
+
+        main {
+            max-width: 650px;
+            margin: 26px auto;
+            padding: 28px 22px;
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 4px 14px #00000012;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 14px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .price {
+            color: #a0522d;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .promo-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #a0522d;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .promo-link:hover {
+            background: #704126;
+        }
+
+        .version {
+            text-align: center;
+            margin-top: 24px;
+            color: #a0522d;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KSU Coffee</h1>
+        <p>กาแฟดี ๆ ที่มหาวิทยาลัยกาฬสินธุ์</p>
+    </header>
+
+    <main>
+        <h2>เมนูเครื่องดื่ม</h2>
+        <p>ชื่อ: นภัสกร ทิมินกุล</p>
+        <p>รหัสนักศึกษา: 671540005027-1</p>
+
+        <div class="menu-item">
+            <span>Americano</span>
+            <span class="price">45 บาท</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Latte</span>
+            <span class="price">50 บาท</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Thai Tea</span>
+            <span class="price">40 บาท</span>
+        </div>
+
+        <div class="menu-item">
+            <span>Mocha</span>
+            <span class="price">55 บาท</span>
+        </div>
+
+        <p style="text-align: center;">
+            <a class="promo-link" href="http://localhost:8081">ดูโปรโมชั่น</a>
+        </p>
+
+        <p class="version">Menu v2</p>
+    </main>
+</body>
+</html>
+```
